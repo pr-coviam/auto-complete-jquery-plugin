@@ -1,0 +1,53 @@
+input[type="text"] {
+  display: block;
+  margin: 0;
+  height:30px;
+  width:100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px #25d3ea solid;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+.text{
+  background-color : white;
+  color : #000 ; 
+  height:30px;
+  line-height:30px;
+  font-familly: helvetica;
+  font-size:20px;
+  padding-left: 5px;
+  border-top:1px solid #f4fbfc;
+  cursor:pointer;
+  
+}
+.text:hover{
+  background-color:#0fa4bf;
+  color : white;
+}
+.selectedText{
+  background-color:#ffae21;
+  color:#FFF;
+   height:30px;
+  line-height:30px;
+  font-familly: helvetica;
+  font-size:20px;
+  padding : 4px ;
+  margin : 2px;
+  border-radius : 8%;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.remove{
+  cursor:pointer;
+}
+#selections{
+  margin-top: 10px;
+}
